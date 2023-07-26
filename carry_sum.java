@@ -4,6 +4,7 @@ public class carry_sum
 	public static void main(String args[])
 	{
 		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter the two numbers");
 		int n1=sc.nextInt();
 		int n2=sc.nextInt();
 		//int ans=n1+n2;
@@ -27,6 +28,7 @@ public class carry_sum
 			n1=n1/10;
 			n2=n2/10;
 		}
+		System.out.println("The sum of the carry is");
 		System.out.println(c);
 	}
 }
